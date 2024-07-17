@@ -72,6 +72,7 @@ const Container = () => {
     } else if (key === 'Enter') {
       if (state.operationState === '/' && state.numberState === '0') {
         alert('0은 나눌 수 없습니다.')
+        dispatch({ type: 'CLEAR' })
         return
       }
       dispatch({ type: 'CALCULATE' })
@@ -94,6 +95,7 @@ const Container = () => {
   const onClickEqual = () => {
     if (state.operationState === '/' && state.numberState === '0') {
       alert('0은 나눌 수 없습니다.')
+      dispatch({ type: 'CLEAR' })
       return
     }
     dispatch({ type: 'CALCULATE' })
