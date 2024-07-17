@@ -1,5 +1,9 @@
 # calculator
 
+## 데모
+
+![demo](https://github.com/user-attachments/assets/bf7494cf-84f6-4dfe-8028-45d409186cd7)
+
 ## Todo
 
 - 만들 기능
